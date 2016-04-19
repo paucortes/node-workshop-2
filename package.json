@@ -1,0 +1,19 @@
+{
+  "name": "project_practice",
+  "version": "1.0.0",
+  "description": "Practice of my first project",
+  "main": "call-callbacks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paucortes/node-workshop-2.git"
+  },
+  "author": "Pau Cortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paucortes/node-workshop-2/issues"
+  },
+  "homepage": "https://github.com/paucortes/node-workshop-2#readme"
+}
