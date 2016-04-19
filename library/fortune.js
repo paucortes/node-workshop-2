@@ -31,4 +31,7 @@ var inspirationalQuotes = ["Life is about making an impact, not making an income
 function fortune() {
     console.log(inspirationalQuotes[randBetween(0,24)]);
 }
-fortune();
+
+module.exports = {
+    fortune: fortune()
+};
