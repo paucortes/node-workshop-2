@@ -19,9 +19,14 @@ function lastChar(string, callback) {
 }
 
 function getFirstAndLast(string, callback){
-    firstChar(string, callback) + lastChar(string, callback);
+    
+    firstChar(string, function(firstLetter) {
+        lastChar(string, function(lastLetter){
+            callback(firstLetter + lastLetter);
+            });
+    });
 }
-
+    
 getFirstAndLast("hello", function(firstLast) {
     console.log(firstLast);
 });
